@@ -12,15 +12,15 @@
    <div class="card">
     <div class="search">
  <input type="text" placeholder="Enter your City here" spellcheck="false">
- <button ><img src="images/search.png" ></button>
+ <button ><img src="/search.png" ></button>
     </div>
     <div class="weather">
-        <img src="images/rain.png" class="weather-icon">
+        <img src="/rain.png" class="weather-icon">
         <h1 class="temp"> 22°C</h1>
         <h2 class="city">Chandigarh</h2>
         <div class="details">
             <div class="col">
-                <img src="images/humidity.png" >
+                <img src="/humidity.png" >
             <div>
             <p class="humidity">50%</p>
             <p>humidity</p>
@@ -28,7 +28,7 @@
         </div>
 
         <div class="col">
-            <img src="images/wind.png" >
+            <img src="/wind.png" >
         <div>
         <p class="wind">50%</p>
         <p>wind Speed</p>
@@ -57,19 +57,19 @@
 
        // The Weather Condition Image in the Web App 
         if(data.weather[0].main=="Clouds"){
-            waetherIcon.src = "images/clouds.png"
+            waetherIcon.src = "/clouds.png"
         }
         else if(data.weather[0].main=="Clear"){
-            waetherIcon.src = "images/clear.png"
+            waetherIcon.src = "/clear.png"
         }
         else if(data.weather[0].main=="Rain"){
-            waetherIcon.src = "images/rain.png"
+            waetherIcon.src = "/rain.png"
         }
         else if(data.weather[0].main=="Drizzle"){
-            waetherIcon.src = "images/drizzle.png"
+            waetherIcon.src = "/drizzle.png"
         }
         else if(data.weather[0].main=="Mist"){
-            waetherIcon.src = "images/mist.png"
+            waetherIcon.src = "/mist.png"
         }
        
     }
